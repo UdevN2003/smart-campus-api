@@ -1,3 +1,9 @@
 com\mycompany\smartcampusapi\JakartaRestConfiguration.class
 com\mycompany\smartcampusapi\SmartCampusApplication.class
+com\mycompany\smartcampusapi\models\Room.class
+com\mycompany\smartcampusapi\resources\DiscoveryResource.class
+com\mycompany\smartcampusapi\database\DataStore.class
+com\mycompany\smartcampusapi\resources\SensorRoomResource.class
+com\mycompany\smartcampusapi\Main.class
+com\mycompany\smartcampusapi\models\Sensor.class
 com\mycompany\smartcampusapi\resources\JakartaEE11Resource.class

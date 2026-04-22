@@ -58,9 +58,7 @@ public class SensorRoomResource {
         if (!room.getSensorIds().isEmpty()) {
             // In Part 5, you will map this to a custom exception.
             // For now, we manually return the 409 Conflict.
-            return Response.status(Response.Status.CONFLICT)
-                    .entity("Cannot delete: Room still has active sensors assigned to it.")
-                    .build();
+           throw new com.mycompany.smartcampusapi.exceptions.RoomNotEmptyException("Cannot delete: Room still has active sensors.");
         }
 
         // If it's empty, it is safe to delete

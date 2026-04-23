@@ -1,4 +1,3 @@
-com\mycompany\smartcampusapi\JakartaRestConfiguration.class
 com\mycompany\smartcampusapi\exceptions\LinkedResourceNotFoundException.class
 com\mycompany\smartcampusapi\SmartCampusApplication.class
 com\mycompany\smartcampusapi\exceptions\RoomNotEmptyException.class
@@ -15,7 +14,6 @@ com\mycompany\smartcampusapi\resources\DiscoveryResource.class
 com\mycompany\smartcampusapi\database\DataStore.class
 com\mycompany\smartcampusapi\exceptions\LinkedResourceNotFoundMapper.class
 com\mycompany\smartcampusapi\resources\SensorRoomResource.class
-com\mycompany\smartcampusapi\Main.class
 com\mycompany\smartcampusapi\resources\SensorResource.class
 com\mycompany\smartcampusapi\exceptions\GlobalExceptionMapper.class
 com\mycompany\smartcampusapi\models\Sensor.class

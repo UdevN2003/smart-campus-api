@@ -1,10 +1,12 @@
 package com.mycompany.smartcampusapi;
 
-import jakarta.ws.rs.ApplicationPath;
-import jakarta.ws.rs.core.Application;
+import javax.ws.rs.ApplicationPath;
+import org.glassfish.jersey.server.ResourceConfig;
 
-// This fulfills the requirement to set the versioned entry point
 @ApplicationPath("/api/v1")
-public class SmartCampusApplication extends Application {
-    // Leave this empty
+public class SmartCampusApplication extends ResourceConfig {
+    public SmartCampusApplication() {
+        // This tells Tomcat to scan your entire project for endpoints and error mappers
+        packages("com.mycompany.smartcampusapi");
+    }
 }
